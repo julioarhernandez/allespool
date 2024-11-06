@@ -1,0 +1,15 @@
+{
+  "contact": {
+    "address": "123 Main Street, Miami, FL",
+    "phone": "+1 (555) 123-4567",
+    "email": "contact@poolservices.com",
+    "hours": "Sun - Fri (08AM - 10PM)"
+  },
+  "social": {
+    "facebook": "https://facebook.com/yourpage",
+    "twitter": "https://twitter.com/yourpage",
+    "instagram": "https://instagram.com/yourpage",
+    "linkedin": "https://linkedin.com/company/yourpage",
+    "youtube": "https://youtube.com/c/yourpage"
+  }
+} 
