@@ -191,6 +191,17 @@ Version         : 1.1
         fixedContentPos: false
     });
 
+    // Smooth scrolling for anchor links 
+    $('a[href^="#"]').on('click', function(event) {
+        event.preventDefault();
+        
+        var target = $(this.hash);
+        if (target.length) {
+            $('html, body').animate({
+                scrollTop: target.offset().top - 80 // Adjust the 80 based on your header height
+            }, 800); // Adjust the 800 to control animation speed (in milliseconds)
+        }
+    });
 
 
     // scroll to top
