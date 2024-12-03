@@ -4670,3 +4670,19 @@ home 3
 }
 
 
+.partner-area .owl-carousel .owl-item img {
+   
+    height: 60px;
+    width: auto;
+
+}
+.partner-area .owl-carousel .owl-item {
+   
+display: flex;
+justify-content: center;
+
+}
+.partner-area .owl-carousel.owl-loaded {
+  filter: grayscale(1);
+    opacity: 0.5;
+}
